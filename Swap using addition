@@ -1,0 +1,9 @@
+a=int(input("Enter a value:"))
+b=int(input("Enter a value:"))
+#before swapping 
+print(f"The value of a and b is {a} and {b}")
+a=a-b
+b=a+b
+a=b-a
+#after swapping 
+print(f"The value of a and b is {a} and {b}")
